@@ -1,0 +1,17 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "test:tag": "./node_modules/.bin/cucumber-js --tags @working"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.5",
+    "got": "^11.7.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
